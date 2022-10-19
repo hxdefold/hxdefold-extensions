@@ -1,33 +1,44 @@
 package;
 
-import defold.extensions.adinfo.*;
-import defold.extensions.admob.*;
-import defold.extensions.camera.*;
-import defold.extensions.crypt.*;
-import defold.extensions.facebook.*;
-import defold.extensions.firebase.*;
-import defold.extensions.firebase.analytics.*;
-import defold.extensions.firebase.remoteconfig.*;
-import defold.extensions.googleplay.*;
-import defold.extensions.googleplay.instant.*;
-import defold.extensions.iap.*;
-import defold.extensions.push.*;
-import defold.extensions.review.*;
-import defold.extensions.rive.*;
-import defold.extensions.safearea.*;
-import defold.extensions.siwa.*;
-import defold.extensions.spine.*;
-import defold.extensions.websocket.*;
-import defold.extensions.webview.*;
+import defold.extensions.adinfo.AdInfo;
+import defold.extensions.admob.AdMob;
+import defold.extensions.camera.Camera;
+import defold.extensions.crypt.Crypt;
+import defold.extensions.facebook.Facebook;
+import defold.extensions.firebase.Firebase;
+import defold.extensions.firebase.analytics.FirebaseAnalytics;
+import defold.extensions.firebase.remoteconfig.FirebaseRemoteConfig;
+import defold.extensions.googleplay.Gpgs;
+import defold.extensions.googleplay.instant.GooglePlayInstant;
+import defold.extensions.iap.Iap;
+import defold.extensions.push.Push;
+import defold.extensions.review.Review;
+import defold.extensions.rive.Rive;
+import defold.extensions.safearea.SafeArea;
+import defold.extensions.siwa.Siwa;
+import defold.extensions.spine.Spine;
+import defold.extensions.websocket.WebSocket;
+import defold.extensions.webview.WebView;
 
+#if macro
+import haxe.macro.Expr;
+import haxe.macro.Context;
+#end
 
 /**
- * This class only exists to import all packages and check for compilation errors.
+ * This class only exists to use all packages and check for compilation errors.
  */
 class TestMain
 {
     static function main()
     {
 
+    }
+
+
+    static macro function callAllStaticMethods(): Expr
+    {
+        // @TODO
+        return null;
     }
 }
