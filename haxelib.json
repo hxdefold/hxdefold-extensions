@@ -1,0 +1,14 @@
+{
+  "name": "hxdefold-extensions",
+  "url" : "https://github.com/hxdefold/hxdefold-extensions",
+  "license": "MIT",
+  "tags": [ "hxdefold", "defold", "extensions", "api", "externs" ],
+  "description": "Haxe externs for various Defold extensions.",
+  "version": "0.0.0",
+  "classPath": "src",
+  "releasenote": "Initial release.",
+  "contributors": [ "Haath" ],
+  "dependencies": {
+    "hxdefold": ""
+  }
+}

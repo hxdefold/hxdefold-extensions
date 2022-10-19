@@ -1,0 +1,9 @@
+
+--dce no
+
+--class-path src/
+--class-path test/
+
+--library hxdefold
+
+--lua bin/main.lua
