@@ -1,5 +1,6 @@
 package defold.extensions.crypt;
 
+import haxe.io.Bytes;
 import lua.Table.AnyTable;
 import defold.types.*;
 
@@ -8,44 +9,44 @@ import defold.types.*;
 extern class Crypt
 {
     /**
-     *  
-     * 
-     * @param buffer  
+     *
+     *
+     * @param buffer
      */
-    static function hash_sha1(buffer: UNKNOWN): Void;
+    static function hash_sha1(buffer: String): Bytes;
 
     /**
-     *  
-     * 
-     * @param buffer  
+     *
+     *
+     * @param buffer
      */
-    static function hash_sha256(buffer: UNKNOWN): Void;
+    static function hash_sha256(buffer: String): Bytes;
 
     /**
-     *  
-     * 
-     * @param buffer  
+     *
+     *
+     * @param buffer
      */
-    static function hash_sha512(buffer: UNKNOWN): Void;
+    static function hash_sha512(buffer: String): Bytes;
 
     /**
-     *  
-     * 
-     * @param buffer  
+     *
+     *
+     * @param buffer
      */
-    static function hash_md5(buffer: UNKNOWN): Void;
+    static function hash_md5(buffer: String): Bytes;
 
     /**
-     *  
-     * 
-     * @param input  
+     *
+     *
+     * @param input
      */
-    static function encode_base64(input: UNKNOWN): Void;
+    static function encode_base64(input: String): String;
 
     /**
-     *  
-     * 
-     * @param input  
+     *
+     *
+     * @param input
      */
-    static function decode_base64(input: UNKNOWN): Void;
+    static function decode_base64(input: String): String;
 }

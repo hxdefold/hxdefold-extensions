@@ -20,10 +20,6 @@ import defold.extensions.spine.Spine;
 import defold.extensions.websocket.WebSocket;
 import defold.extensions.webview.WebView;
 
-#if macro
-import haxe.macro.Expr;
-import haxe.macro.Context;
-#end
 
 /**
  * This class only exists to use all packages and check for compilation errors.
@@ -33,12 +29,5 @@ class TestMain
     static function main()
     {
 
-    }
-
-
-    static macro function callAllStaticMethods(): Expr
-    {
-        // @TODO
-        return null;
     }
 }
