@@ -35,6 +35,7 @@ Facebook.enable_advertiser_tracking();
 
 ## Extensions
 
+- [GPGS](https://defold.com/extension-gpgs/api/)
 - [IAP](https://defold.com/extension-iap/api/)
 - [Push](https://defold.com/extension-push/api/)
 - [Review](https://defold.com/extension-review/api/)

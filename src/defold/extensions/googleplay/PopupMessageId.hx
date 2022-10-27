@@ -2,7 +2,7 @@ package defold.extensions.googleplay;
 
 
 @:native("gpgs")
-@:enum extern abstract Msg(Int)
+@:enum extern abstract PopupMessageId(Int)
 {
     /**
      * The message type that GPGS sends when finishing the asynchronous operation after calling `gpgs.login()`

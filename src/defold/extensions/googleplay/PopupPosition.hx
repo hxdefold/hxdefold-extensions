@@ -2,7 +2,7 @@ package defold.extensions.googleplay;
 
 
 @:native("gpgs")
-@:enum extern abstract Popup(Int)
+@:enum extern abstract PopupPosition(Int)
 {
     /**
      * The login popup position at the top-left corner.
