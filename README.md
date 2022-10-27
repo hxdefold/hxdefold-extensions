@@ -35,6 +35,7 @@ Facebook.enable_advertiser_tracking();
 
 ## Extensions
 
+- [Facebook](https://defold.com/extension-facebook/api/)
 - [Firebase](https://defold.com/extension-firebase/api/)
 - [Firebase Analytics](https://defold.com/extension-firebase-analytics/api/)
 - [Firebase RemoteConfig](https://defold.com/extension-firebase-remoteconfig/api/)
