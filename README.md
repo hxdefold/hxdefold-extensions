@@ -31,3 +31,15 @@ import defold.extensions.facebook.Facebook;
 
 Facebook.enable_advertiser_tracking();
 ```
+
+
+## Extensions
+
+- [Push](https://defold.com/extension-push/api/)
+- [Review](https://defold.com/extension-review/api/)
+- [Rive](https://defold.com/extension-rive/api/)
+- [SafeArea](https://defold.com/extension-safearea/api/)
+- [Siwa](https://defold.com/extension-siwa/api/)
+- [Spine](https://defold.com/extension-spine/api/)
+- [WebSocket](https://defold.com/extension-websocket/api/)
+- [WebView](https://defold.com/extension-webview/api/)
