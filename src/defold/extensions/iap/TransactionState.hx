@@ -2,7 +2,7 @@ package defold.extensions.iap;
 
 
 @:native("iap")
-@:enum extern abstract Trans(Int)
+@:enum extern abstract TransactionState(Int)
 {
     /**
      * transaction failed state

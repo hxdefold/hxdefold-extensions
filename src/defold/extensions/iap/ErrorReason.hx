@@ -2,7 +2,7 @@ package defold.extensions.iap;
 
 
 @:native("iap")
-@:enum extern abstract Reason(Int)
+@:enum extern abstract ErrorReason(Int)
 {
     /**
      * unspecified error reason
